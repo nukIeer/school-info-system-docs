@@ -1,100 +1,100 @@
-# Screen Designs Documentation
+# Ekran Tasarımları Dokümantasyonu
 
-## Overview
+## Genel Bakış
 
-This section contains all screen designs and user interface documentation for the Parent School Information System.
+Bu bölüm, E-Okul Veli Bilgilendirme Sistemi'nin ekran tasarımlarını ve kullanıcı arayüzü dokümantasyonunu içermektedir.
 
-## Table of Contents
+## İçindekiler
 
-### Authentication Screens
-1. [Login Screen](login-screen.md)
-2. [Password Reset Screen](password-reset-screen.md)
+### Kimlik Doğrulama Ekranları
+1. [Giriş Ekranı](login-screen.md)
+2. [Şifre Sıfırlama Ekranı](password-reset-screen.md)
 
-### Main Screens
-1. [Home Screen](home-screen.md)
-2. [Dashboard](dashboard-screen.md)
+### Ana Ekranlar
+1. [Ana Sayfa](home-screen.md)
+2. [Kontrol Paneli](dashboard-screen.md)
 
-### Academic Management
-1. [Grade Entry Screen](grade-entry-screen.md)
-2. [Grade List Screen](grade-list-screen.md)
-3. [Grade Report Screen](grade-report-screen.md)
+### Akademik Yönetim
+1. [Not Giriş Ekranı](grade-entry-screen.md)
+2. [Not Listesi Ekranı](grade-list-screen.md)
+3. [Not Raporu Ekranı](grade-report-screen.md)
 
-### Attendance Management
-1. [Absence Entry Screen](absence-entry-screen.md)
-2. [Absence List Screen](absence-list-screen.md)
-3. [Absence Report Screen](absence-report-screen.md)
+### Devamsızlık Yönetimi
+1. [Devamsızlık Giriş Ekranı](absence-entry-screen.md)
+2. [Devamsızlık Listesi Ekranı](absence-list-screen.md)
+3. [Devamsızlık Raporu Ekranı](absence-report-screen.md)
 
-### Library Management
-1. [Book List Screen](book-list-screen.md)
-2. [Book Entry Screen](book-entry-screen.md)
-3. [Book Loan Screen](book-loan-screen.md)
+### Kütüphane Yönetimi
+1. [Kitap Listesi Ekranı](book-list-screen.md)
+2. [Kitap Giriş Ekranı](book-entry-screen.md)
+3. [Kitap Ödünç Ekranı](book-loan-screen.md)
 
-### Document Management
-1. [Document List Screen](document-list-screen.md)
-2. [Document Entry Screen](document-entry-screen.md)
-3. [Document View Screen](document-view-screen.md)
+### Belge Yönetimi
+1. [Belge Listesi Ekranı](document-list-screen.md)
+2. [Belge Giriş Ekranı](document-entry-screen.md)
+3. [Belge Görüntüleme Ekranı](document-view-screen.md)
 
-### Communication
-1. [Announcement List Screen](announcement-list-screen.md)
-2. [Announcement Entry Screen](announcement-entry-screen.md)
-3. [Notification Screen](notification-screen.md)
+### İletişim
+1. [Duyuru Listesi Ekranı](announcement-list-screen.md)
+2. [Duyuru Giriş Ekranı](announcement-entry-screen.md)
+3. [Bildirim Ekranı](notification-screen.md)
 
-## Screen Design Process
+## Ekran Tasarım Süreci
 
-### 1. User Interface Design
-- User research
-- Wireframing
-- Prototyping
-- User testing
+### 1. Kullanıcı Arayüzü Tasarımı
+- Kullanıcı araştırması
+- Tel kafes tasarımı
+- Prototipleme
+- Kullanıcı testi
 
-### 2. Visual Design
-- Color scheme
-- Typography
-- Iconography
-- Layout guidelines
+### 2. Görsel Tasarım
+- Renk şeması
+- Tipografi
+- İkonografi
+- Düzen kuralları
 
-### 3. Interaction Design
-- Navigation patterns
-- Form interactions
-- Error handling
-- Success feedback
+### 3. Etkileşim Tasarımı
+- Gezinme desenleri
+- Form etkileşimleri
+- Hata işleme
+- Başarı geri bildirimi
 
-## Design Guidelines
+## Tasarım Kılavuzları
 
-### 1. Layout
-- Responsive design
-- Grid system
-- Spacing rules
-- Component placement
+### 1. Düzen
+- Duyarlı tasarım
+- Izgara sistemi
+- Boşluk kuralları
+- Bileşen yerleşimi
 
-### 2. Typography
-- Font families
-- Font sizes
-- Line heights
-- Text colors
+### 2. Tipografi
+- Yazı tipleri
+- Yazı boyutları
+- Satır yükseklikleri
+- Metin renkleri
 
-### 3. Colors
-- Primary colors
-- Secondary colors
-- Accent colors
-- Status colors
+### 3. Renkler
+- Ana renkler
+- İkincil renkler
+- Vurgu renkleri
+- Durum renkleri
 
-### 4. Components
-- Buttons
-- Forms
-- Tables
-- Cards
-- Modals
+### 4. Bileşenler
+- Düğmeler
+- Formlar
+- Tablolar
+- Kartlar
+- Modallar
 
-## Related Documentation
+## İlgili Dokümantasyon
 
-- [System Overview](../diagrams/general-system.md)
-- [Database Design](../database/README.md)
-- [Installation Guide](../installation/guide.md)
-- [User Guide](../usage/guide.md)
+- [Sistem Genel Bakış](../diagrams/general-system.md)
+- [Veritabanı Tasarımı](../database/README.md)
+- [Kurulum Kılavuzu](../installation/guide.md)
+- [Kullanım Kılavuzu](../usage/guide.md)
 
-## Support and Resources
+## Destek ve Kaynaklar
 
-For screen design-related issues or questions:
-- Contact: [sevda.torun@example.com]
+Ekran tasarımları ile ilgili sorularınız için:
+- İletişim: [sevda.torun@example.com]
 - GitHub: [nukIeer](https://github.com/nukIeer) 

@@ -1,62 +1,63 @@
 ---
 layout: home
-title: Parent School Information System
+title: E-Okul Veli Bilgilendirme Sistemi
 ---
 
-# Parent School Information System Documentation
+# E-Okul Veli Bilgilendirme Sistemi Dokümantasyonu
 
-**Project Owner & Writer:** Sevda Torun
+**Proje Sahibi ve Yazarı:** Sevda Torun  
+**Proje Türü:** Vize Projesi
 
-## Overview
+## Genel Bakış
 
-The Parent School Information System is a comprehensive solution designed to facilitate communication between schools and parents. This system provides real-time access to academic information, attendance records, and important announcements.
+E-Okul Veli Bilgilendirme Sistemi, okullar ve veliler arasındaki iletişimi kolaylaştırmak için tasarlanmış kapsamlı bir çözümdür. Bu sistem, akademik bilgilere, devamsızlık kayıtlarına ve önemli duyurulara gerçek zamanlı erişim sağlar.
 
-## Documentation Structure
+## Dokümantasyon Yapısı
 
-### 1. System Overview
-- [General System Overview](docs/diagrams/general-system.md)
-- [Context Diagram](docs/diagrams/context-diagram.md)
-- [Level 0 Diagram](docs/diagrams/level-0-diagram.md)
-- [Information Addition Diagram](docs/diagrams/info-addition-diagram.md)
-- [Login Process](docs/diagrams/login-process.md)
+### 1. Sistem Genel Bakış
+- [Genel Sistem Diyagramı](docs/diagrams/general-system.md)
+- [Bağlam Diyagramı](docs/diagrams/context-diagram.md)
+- [0-Seviye Diyagramı](docs/diagrams/level-0-diagram.md)
+- [Bilgi Ekleme Diyagramı](docs/diagrams/info-addition-diagram.md)
+- [Giriş İşlemi](docs/diagrams/login-process.md)
 
-### 2. Database Design
-- [Database Overview](docs/database/README.md)
-- [Entity Relationship Diagram](docs/database/erd.md)
-- [Database Tables](docs/database/tables.md)
-- [Sample Queries](docs/database/queries.md)
+### 2. Veritabanı Tasarımı
+- [Veritabanı Genel Bakış](docs/database/README.md)
+- [Varlık İlişki Diyagramı](docs/database/erd.md)
+- [Veritabanı Tabloları](docs/database/tables.md)
+- [Örnek Sorgular](docs/database/queries.md)
 
-### 3. Screen Designs
-- [Screen Overview](docs/screens/README.md)
-- [Login Screen](docs/screens/login-screen.md)
-- [Home Screen](docs/screens/home-screen.md)
-- [Grade Entry Screen](docs/screens/grade-entry-screen.md)
-- [Absence Entry Screen](docs/screens/absence-entry-screen.md)
+### 3. Ekran Tasarımları
+- [Ekran Genel Bakış](docs/screens/README.md)
+- [Giriş Ekranı](docs/screens/login-screen.md)
+- [Ana Sayfa](docs/screens/home-screen.md)
+- [Not Giriş Ekranı](docs/screens/grade-entry-screen.md)
+- [Devamsızlık Giriş Ekranı](docs/screens/absence-entry-screen.md)
 
-### 4. Installation & Usage
-- [Installation Guide](docs/installation/guide.md)
-- [User Guide](docs/usage/guide.md)
+### 4. Kurulum ve Kullanım
+- [Kurulum Kılavuzu](docs/installation/guide.md)
+- [Kullanım Kılavuzu](docs/usage/guide.md)
 
-## Quick Links
+## Hızlı Bağlantılar
 
-### System Components
-- [Grade Management](docs/database/tables.md#grade-management)
-- [Attendance Tracking](docs/database/tables.md#attendance-tracking)
-- [Book Management](docs/database/tables.md#book-management)
-- [Document Management](docs/database/tables.md#document-management)
-- [Announcement System](docs/database/tables.md#announcement-system)
+### Sistem Bileşenleri
+- [Not Yönetimi](docs/database/tables.md#not-yonetimi)
+- [Devamsızlık Takibi](docs/database/tables.md#devamsizlik-takibi)
+- [Kitap Yönetimi](docs/database/tables.md#kitap-yonetimi)
+- [Belge Yönetimi](docs/database/tables.md#belge-yonetimi)
+- [Duyuru Sistemi](docs/database/tables.md#duyuru-sistemi)
 
-### Process Flows
-- [Login Process](docs/diagrams/login-process.md)
-- [Grade Entry Process](docs/diagrams/grade-entry.md)
-- [Information Addition Process](docs/diagrams/info-addition-diagram.md)
+### İş Akışları
+- [Giriş İşlemi](docs/diagrams/login-process.md)
+- [Not Giriş İşlemi](docs/diagrams/grade-entry.md)
+- [Bilgi Ekleme İşlemi](docs/diagrams/info-addition-diagram.md)
 
-### Documentation
-- [Contributors](CONTRIBUTORS.md)
-- [License](LICENSE)
+### Dokümantasyon
+- [Katkıda Bulunanlar](CONTRIBUTORS.md)
+- [Lisans](LICENSE)
 
-## Contact
+## İletişim
 
-For any questions or support, please contact:
-- Email: [sevda.torun@example.com]
+Sorularınız veya destek için:
+- E-posta: [sevda.torun@example.com]
 - GitHub: [nukIeer](https://github.com/nukIeer) 

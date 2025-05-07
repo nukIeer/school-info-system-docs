@@ -1,94 +1,94 @@
-# Database Design Documentation
+# Veritabanı Tasarım Dokümantasyonu
 
-## Overview
+## Genel Bakış
 
-This section contains the complete database design documentation for the Parent School Information System.
+Bu bölüm, E-Okul Veli Bilgilendirme Sistemi'nin veritabanı tasarım dokümantasyonunu içermektedir.
 
-## Table of Contents
+## İçindekiler
 
-1. [Entity Relationship Diagram](erd.md)
-2. [Database Tables](tables.md)
-3. [Sample Queries](queries.md)
+1. [Varlık İlişki Diyagramı](erd.md)
+2. [Veritabanı Tabloları](tables.md)
+3. [Örnek Sorgular](queries.md)
 
-## Database Structure
+## Veritabanı Yapısı
 
-The database is designed to support all major functionalities of the system:
+Veritabanı, sistemin tüm temel işlevlerini destekleyecek şekilde tasarlanmıştır:
 
-### Core Tables
-- [Users](tables.md#users)
-- [Students](tables.md#students)
-- [Teachers](tables.md#teachers)
-- [Classes](tables.md#classes)
+### Temel Tablolar
+- [Kullanıcılar](tables.md#kullanicilar)
+- [Öğrenciler](tables.md#ogrenciler)
+- [Öğretmenler](tables.md#ogretmenler)
+- [Sınıflar](tables.md#siniflar)
 
-### Academic Management
-- [Grades](tables.md#grades)
-- [Courses](tables.md#courses)
-- [Exams](tables.md#exams)
+### Akademik Yönetim
+- [Notlar](tables.md#notlar)
+- [Dersler](tables.md#dersler)
+- [Sınavlar](tables.md#sinavlar)
 
-### Attendance System
-- [Attendance Records](tables.md#attendance-records)
-- [Absence Types](tables.md#absence-types)
+### Devamsızlık Sistemi
+- [Devamsızlık Kayıtları](tables.md#devamsizlik-kayitlari)
+- [Devamsızlık Türleri](tables.md#devamsizlik-turleri)
 
-### Library Management
-- [Books](tables.md#books)
-- [Book Loans](tables.md#book-loans)
+### Kütüphane Yönetimi
+- [Kitaplar](tables.md#kitaplar)
+- [Kitap Ödünç Kayıtları](tables.md#kitap-odunc-kayitlari)
 
-### Document Management
-- [Documents](tables.md#documents)
-- [Document Types](tables.md#document-types)
+### Belge Yönetimi
+- [Belgeler](tables.md#belgeler)
+- [Belge Türleri](tables.md#belge-turleri)
 
-### Communication
-- [Announcements](tables.md#announcements)
-- [Notifications](tables.md#notifications)
+### İletişim
+- [Duyurular](tables.md#duyurular)
+- [Bildirimler](tables.md#bildirimler)
 
-## Related Documentation
+## İlgili Dokümantasyon
 
-- [System Overview](../diagrams/general-system.md)
-- [Screen Designs](../screens/README.md)
-- [Installation Guide](../installation/guide.md)
-- [User Guide](../usage/guide.md)
+- [Sistem Genel Bakış](../diagrams/general-system.md)
+- [Ekran Tasarımları](../screens/README.md)
+- [Kurulum Kılavuzu](../installation/guide.md)
+- [Kullanım Kılavuzu](../usage/guide.md)
 
-## Database Design Process
+## Veritabanı Tasarım Süreci
 
-1. Requirements Analysis
-   - User needs assessment
-   - System functionality requirements
-   - Data storage requirements
+1. Gereksinim Analizi
+   - Kullanıcı ihtiyaçlarının değerlendirilmesi
+   - Sistem işlevsellik gereksinimleri
+   - Veri depolama gereksinimleri
 
-2. Conceptual Design
-   - Entity identification
-   - Relationship mapping
-   - [Entity Relationship Diagram](erd.md)
+2. Kavramsal Tasarım
+   - Varlık tanımlama
+   - İlişki eşleştirme
+   - [Varlık İlişki Diyagramı](erd.md)
 
-3. Logical Design
-   - Table structure
-   - Field definitions
-   - [Database Tables](tables.md)
+3. Mantıksal Tasarım
+   - Tablo yapısı
+   - Alan tanımları
+   - [Veritabanı Tabloları](tables.md)
 
-4. Physical Design
-   - Indexes
-   - Constraints
-   - [Sample Queries](queries.md)
+4. Fiziksel Tasarım
+   - İndeksler
+   - Kısıtlamalar
+   - [Örnek Sorgular](queries.md)
 
-## Database Maintenance
+## Veritabanı Bakımı
 
-### Backup Procedures
-- Daily automated backups
-- Weekly full backups
-- Monthly archive backups
+### Yedekleme Prosedürleri
+- Günlük otomatik yedeklemeler
+- Haftalık tam yedeklemeler
+- Aylık arşiv yedeklemeleri
 
-### Performance Optimization
-- Regular index maintenance
-- Query optimization
-- Database statistics updates
+### Performans Optimizasyonu
+- Düzenli indeks bakımı
+- Sorgu optimizasyonu
+- Veritabanı istatistiklerinin güncellenmesi
 
-### Security Measures
-- User access control
-- Data encryption
-- Audit logging
+### Güvenlik Önlemleri
+- Kullanıcı erişim kontrolü
+- Veri şifreleme
+- Denetim günlüğü
 
-## Support and Resources
+## Destek ve Kaynaklar
 
-For database-related issues or questions:
-- Contact: [sevda.torun@example.com]
+Veritabanı ile ilgili sorularınız için:
+- İletişim: [sevda.torun@example.com]
 - GitHub: [nukIeer](https://github.com/nukIeer) 
