@@ -11,32 +11,52 @@ title: Parent School Information System
 
 The Parent School Information System is a comprehensive solution designed to facilitate communication between schools and parents. This system provides real-time access to academic information, attendance records, and important announcements.
 
-## Key Features
-
-- **Grade Management**: Track and view student grades
-- **Attendance Tracking**: Monitor student attendance
-- **Book Management**: Manage library books and student borrowing
-- **Document Management**: Handle student documents
-- **Announcement System**: Share important information with parents
-
 ## Documentation Structure
 
-- [System Overview](docs/README.md)
-- [Database Design](docs/database/README.md)
-- [System Diagrams](docs/diagrams/README.md)
-- [Screen Designs](docs/screens/README.md)
-- [Installation Guide](docs/installation/README.md)
+### 1. System Overview
+- [General System Overview](docs/diagrams/general-system.md)
+- [Context Diagram](docs/diagrams/context-diagram.md)
+- [Level 0 Diagram](docs/diagrams/level-0-diagram.md)
+- [Information Addition Diagram](docs/diagrams/info-addition-diagram.md)
+- [Login Process](docs/diagrams/login-process.md)
+
+### 2. Database Design
+- [Database Overview](docs/database/README.md)
+- [Entity Relationship Diagram](docs/database/erd.md)
+- [Database Tables](docs/database/tables.md)
+- [Sample Queries](docs/database/queries.md)
+
+### 3. Screen Designs
+- [Screen Overview](docs/screens/README.md)
+- [Login Screen](docs/screens/login-screen.md)
+- [Home Screen](docs/screens/home-screen.md)
+- [Grade Entry Screen](docs/screens/grade-entry-screen.md)
+- [Absence Entry Screen](docs/screens/absence-entry-screen.md)
+
+### 4. Installation & Usage
+- [Installation Guide](docs/installation/guide.md)
 - [User Guide](docs/usage/guide.md)
 
 ## Quick Links
 
-- [Installation Guide](docs/installation/guide.md)
-- [User Guide](docs/usage/guide.md)
+### System Components
+- [Grade Management](docs/database/tables.md#grade-management)
+- [Attendance Tracking](docs/database/tables.md#attendance-tracking)
+- [Book Management](docs/database/tables.md#book-management)
+- [Document Management](docs/database/tables.md#document-management)
+- [Announcement System](docs/database/tables.md#announcement-system)
+
+### Process Flows
+- [Login Process](docs/diagrams/login-process.md)
+- [Grade Entry Process](docs/diagrams/grade-entry.md)
+- [Information Addition Process](docs/diagrams/info-addition-diagram.md)
+
+### Documentation
 - [Contributors](CONTRIBUTORS.md)
 - [License](LICENSE)
 
 ## Contact
 
 For any questions or support, please contact:
-- Email: [your-email@example.com]
-- GitHub: [your-github-profile] 
+- Email: [sevda.torun@example.com]
+- GitHub: [nukIeer](https://github.com/nukIeer) 
