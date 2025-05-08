@@ -1,4 +1,4 @@
-# E-Okul Veli Bilgilendirme Sistemi - YBS Tasarım Projesi
+# School Information System - YBS Tasarım Projesi
 
 Bu repo, Yönetim Bilişim Sistemi (YBS) Tasarım Projesi kapsamında geliştirilen E-Okul Veli Bilgilendirme Sistemi'nin dokümentasyonunu içermektedir.
 
